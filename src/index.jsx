@@ -3,6 +3,7 @@ import "assets/scss/styles.scss";
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
 import Colors from "./components/Colors";
+import Counter from "./components/Counter";
 
 class App extends Component {
   constructor(props) {
@@ -13,6 +14,7 @@ class App extends Component {
   render() {
     return (
       <>
+        <Counter />
         <Colors />
       </>
     );
