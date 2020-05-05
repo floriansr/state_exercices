@@ -1,11 +1,4 @@
 {
-	"settings": {
-		"import/resolver": {
-			"node": {
-				"extensions": [".js", ".jsx", ".ts", ".tsx", ".scss"]
-			}
-		}
-	},
 	"parser": "babel-eslint",
 	"extends": ["airbnb", "prettier", "prettier/react"],
 	"plugins": ["prettier"],

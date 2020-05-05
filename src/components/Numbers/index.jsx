@@ -4,11 +4,11 @@ class Numbers extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {};
-		this.number = this.props;
 	}
 
 	render() {
-		return <>{this.number}</>;
+		const { number } = this.props;
+		return <>{number}</>;
 	}
 }
 
